@@ -1,0 +1,17 @@
+﻿
+
+GET https://localhost:7071/api/foo
+Authorization: Bearer CfDJ8Lznb5pegtZOoMd8wpkltEPLPkgLthQ4t2Tw_6fFsEeXjFhet9dhOmvER6ZLF3MFmReaDjQbp1ypuiOyx-dWNqGirmYAf3JNqcV6bGfXe539t3189mEUmlSyPGB92y575WKHQiotH6H7TflLUlKaOFUylw3wCvkDKe7I-UXR-Z-IlVFD4oo6BO8YWmYRUXGobkaf15rMyCU4jq0UgdMtwN6NlN7j3SMZJI17TsoLSNIiq1VUz_k88rGtT-xYg66iBegXyZaof1zKUc1APyFgP2A1C1bHsgCvDiiaimVspr-3Il-W0x01WUcP86AkJhQnAzB7F6Y_L_-_dQ_xaXMeH5zzZCgP0II5wbDHXSsmoQnrDbCZ5MBD6Ai5tu6Sc8udv5_oK4MfLYfF6YuEPDTVNOlCNQwZDiz51fjZN8rcspxfQssJnVLVEOImNrcUEISHW-vv0elcgk7gcJEa_oe3DTwwoCRhlbzcf1X8Qxn9FCIOdXUwCRwGnE-zIVIN3KD9T7zERYPHwLvbn9dQI2F3t1syJPO0V09BE6XrOecXV_fvVGCapO1Zz-oF8Dxt2kH7l8OGPbdmjtj_JnUc-IwHrpuxNjM9GLBqtiJ3kqUHlIYFyE6ZM4Her-ZZhzbNk7fvQ5OLv3BDVCBKiDLZhUx4hD-2QuK7-i_OrEZQ0kNoCHPvibIQYBrqpuTWrztVbtX8_OFtKy6MEkPFgbF35B56D08
+
+###
+
+Post https://localhost:7071/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "kimutai0003@gmail.com",
+  "password": "Password@1"
+
+}
+
+
